@@ -1,1 +1,1 @@
-# bkc-node-ipfs
+# bkc-node
