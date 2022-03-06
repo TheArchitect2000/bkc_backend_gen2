@@ -80,10 +80,10 @@ if(whichserver === 'iabt') {
 
 var server = bouncy(opts,function (req, res, bounce) {
     // console.log('-------------------------');
-    if (req.headers.host === 'iabroker.internetanywhere.io' && (req.url==='/webhook' || req.url==='/webhook_alexa')) {
+    if (req.headers.host === 'iabroker.internetanywhere.io' && (req.url==='/webhook_google' || req.url==='/webhook_alexa')) {
         bounce(9122);
     }
-    else if (req.headers.host === 'panel.blocklychain.io' && (req.url==='/webhook' || req.url==='/webhook_alexa')) {
+    else if (req.headers.host === 'panel.blocklychain.io' && (req.url==='/webhook_google' || req.url==='/webhook_alexa')) {
         bounce(9122);
     }
     else {

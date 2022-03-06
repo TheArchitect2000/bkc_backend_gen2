@@ -45,5 +45,5 @@ $ pm2 start src/index.js
    ![dialogflow-import](assets/dialogflow-import.png)
 7. Go to "Fullfillment" menu and set your webhook address
    ![dialogflow-fullfillment](assets/dialogflow-fullfill.png)
-8. Set "URL" by your webhook address `i.e. https://your.node.server:443/webhook`
+8. Set "URL" by your webhook address `i.e. https://your.node.server:443/webhook_google`
 9. Click "SAVE" button in the bottom of page
