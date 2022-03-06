@@ -11,7 +11,7 @@ try {
     console.error('which.server load error 1',e);
 }
 
-
+var enableVoice = false;
 
 var domainUrl = 'https://localhost';
 var brokerUrl = 'mqtts://localhost:3008';//secure https or wss
@@ -44,6 +44,7 @@ if(whichserver === 'devcopa') {
 } else
 //for panel.blocklychain.io
 if(whichserver === 'blocklychain') {
+    enableVoice = true;
     domainUrl = 'https://panel.blocklychain.io';
     brokerUrl = 'mqtts://panel.blocklychain.io:3008';//secure https or wss
     domainName = 'Blocklychain';
