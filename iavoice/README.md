@@ -28,7 +28,7 @@ $ pm2 start src/index.js
 5. Click on the button "Build Model"
 6. Go to the Endpoint menu
 7. Select "HTTPS"
-8. In the "Default Region" box set your webhook URL
+8. In the "Default Region" box set your webhook URL `i.e. https://your.node.server:443/webhook_alexa`
 9. In the "certificate" box select item "My development endpoint has a certificate from a trusted certificate authority"
 10. Rest other boxes as default
 11. Click the button "Save Endpoints"
@@ -42,5 +42,7 @@ $ pm2 start src/index.js
 5. In Dialogflow go to settings and "Export and Import" tab
 6. Upload the zip file using "RESTORE FROM ZIP" button
    ![dialogflow-import](assets/dialogflow-import.png)
-7.Go to "Fullfillment" menu and set your webhook address
+7. Go to "Fullfillment" menu and set your webhook address
    ![dialogflow-fullfillment](assets/dialogflow-fullfill.png)
+8. Set "URL" by your webhook address `i.e. https://your.node.server:443/webhook`
+9. Click "SAVE" button in the bottom of page
