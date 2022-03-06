@@ -23,7 +23,7 @@ $ pm2 start src/index.js
 ### Setting up Alexa
 1. Create an Amazon developer account
 2. Download schema definition file named <a href="assets/BKC-Alexa-Schema.json">BKC-Alexa-Schema.json</a> from git repository.
-3. In the Alexa console go to "Json Editor" page and upload the json file by dragging and drop there.
+3. Navigate to the "Json Editor" page in the Alexa console and drag and drop the json file there.
 4. Click on the button "Save Model"
 5. Click on the button "Build Model"
 6. Go to the Endpoint menu
