@@ -33,7 +33,7 @@
     "request": "^2.88.0",
     "secure-random-password": "^0.1.0",
     "tz-offset": "0.0.2",
-    "vm2": "^3.8.4",
+    "vm2": "^3.9.11",
     "web-push": "^3.4.1"
   }
 }
