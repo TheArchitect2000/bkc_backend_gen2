@@ -13,7 +13,7 @@
     "jovo-platform-dialogflow": "^3.5.2",
     "jovo-platform-googleassistant": "^3.5.4",
     "jovo-plugin-debugger": "^3.5.1",
-    "node-rest-client": "^3.1.0",
+    "node-rest-client": "^3.1.1",
     "node-rest-client-promise": "^3.1.1"
   },
   "devDependencies": {
